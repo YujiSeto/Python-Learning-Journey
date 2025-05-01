@@ -22,7 +22,7 @@ It is an **object-oriented** language, created in **1991**, and its main feature
 
 That's right! 🎉
 
-According to **TIOBE** (a site specialized in software quality evaluation and tracking), **Python** ranks third, just after **Java**.
+According to **TIOBE** (a site specialized in software quality evaluation and tracking), **Python** ranks first.
 
 To check the full language ranking, visit: [TIOBE Index](https://www.tiobe.com/tiobe-index//).
 
