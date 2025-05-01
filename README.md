@@ -32,3 +32,41 @@ This repository includes:
 
 ## 📁 Repository Structure
 
+📂 python-learning/
+├── notes/                # Concepts, summaries, and notes
+├── exercises/            # Solved exercises and practice problems
+├── projects/             # Mini-projects and coding challenges
+├── resources/            # Useful links and additional study materials
+└── README.md             # This file
+
+---
+
+## 🚀 Tools & Tech
+
+- Python 3.x
+- VS Code / Jupyter Notebook
+- Git & GitHub
+- Various online courses and tutorials (self-paced)
+
+---
+
+## 👤 About Me
+
+I'm **Rodrigo Yuji Seto Soma**, a Systems Information graduate and aspiring developer based in Japan 🇯🇵.  
+This repository reflects my journey toward a career in tech, with a focus on front-end development, automation, and continuous learning.
+
+- 🔗 [GitHub](https://github.com/YujiSeto)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/yujiseto/)  
+
+---
+
+## 🤝 Contributions
+
+This is a personal learning project, but suggestions are always welcome.  
+Feel free to open issues or fork the repo if you'd like to build on any of the content!
+
+---
+
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
