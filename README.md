@@ -32,19 +32,19 @@ This repository includes:
 
 ## 📁 Repository Structure
 
-📂 python-learning/
-├── notes/                # Concepts, summaries, and notes
-├── exercises/            # Solved exercises and practice problems
-├── projects/             # Mini-projects and coding challenges
-├── resources/            # Useful links and additional study materials
-└── README.md             # This file
+📂 python-learning
+ ├── exercises/ — Solved exercises and practice problems  
+ ├── notes/ — Concepts, summaries, and notes  
+ ├── projects/ — Mini-projects and coding challenges  
+ ├── resources/ — Useful links and additional study materials  
+ └── README.md — This file
 
 ---
 
 ## 🚀 Tools & Tech
 
 - Python 3.x
-- VS Code / Jupyter Notebook
+- VS Code
 - Git & GitHub
 - Various online courses and tutorials (self-paced)
 
