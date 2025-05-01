@@ -32,7 +32,7 @@ This repository includes:
 
 ## 📁 Repository Structure
 
-📂 python-learning
+📂 python-learning  
  ├── exercises/ — Solved exercises and practice problems  
  ├── notes/ — Concepts, summaries, and notes  
  ├── projects/ — Mini-projects and coding challenges  
