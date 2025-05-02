@@ -18,17 +18,27 @@ It enables terminal execution, clears the screen before running, and applies a P
     },
     "terminal.integrated.defaultEncoding": "utf8",
 
-    // Terminal appearance (PyCharm style)
+    // Aparência do terminal
     "terminal.integrated.fontFamily": "monospace",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.lineHeight": 1.4,
     "terminal.integrated.cursorStyle": "block",
     "terminal.integrated.cursorBlinking": true,
 
-    // Editor appearance
+    // Aparência geral do editor
     "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true
+    "editor.fontLigatures": true,
+    "git.autofetch": true,
+    "json.schemas": [],
+
+    "workbench.colorCustomizations": {
+        "terminal.ansiBrightGreen": "#AAAA00",
+        "terminal.foreground": "#00AA00",
+        "terminalCursor.foreground": "#00AA00",
+        "terminal.background": "#000000"
+    }
 }
+
 ```
 
 ## 📊 Format Specifiers Table (with Examples)
@@ -60,7 +70,6 @@ It enables terminal execution, clears the screen before running, and applies a P
 | `\b`     | **Backspace** — deletes the previous character.                             |
 | `\f`     | **Form feed** — inserts a page break (mostly symbolic).                     |
 | `\u`     | Inserts a **Unicode character** (requires 4-digit hex code, e.g., `\u2764`).|
-
 
 ## 🧪 Escape Sequences Examples in Python
 
@@ -103,3 +112,53 @@ print("Page 1\fPage 2")    # Output: Page 1
 
 # Unicode character
 print("\u2764")            # Output: ❤
+```
+
+## ➕ Arithmetic Operators in Python (with Examples)
+
+| Operation             | Symbol | Example             | Result     |
+|-----------------------|--------|---------------------|------------|
+| Addition              | `+`    | `3 + 2`             | `5`        |
+| Subtraction           | `-`    | `5 - 1`             | `4`        |
+| Multiplication        | `*`    | `4 * 2`             | `8`        |
+| Real Division         | `/`    | `10 / 3`            | `3.3333...`|
+| Integer Division      | `//`   | `10 // 3`           | `3`        |
+| Exponentiation        | `**`   | `2 ** 3`            | `8`        |
+| Modulus (Remainder)   | `%`    | `10 % 3`            | `1`        |
+
+## 🧮 Comparison Operators in Python
+
+| Description             | Symbol | Example        | Result     |
+|-------------------------|--------|----------------|------------|
+| Equal to                | `==`   | `5 == 5`       | `True`     |
+| Not equal to            | `!=`   | `5 != 3`       | `True`     |
+| Greater than            | `>`    | `7 > 2`        | `True`     |
+| Less than               | `<`    | `3 < 1`        | `False`    |
+| Greater than or equal to| `>=`   | `6 >= 6`       | `True`     |
+| Less than or equal to   | `<=`   | `4 <= 5`       | `True`     |
+
+## 🔗 Logical Operators in Python
+
+| Algorithm Keyword | Python Keyword | Example              | Result     |
+|-------------------|----------------|----------------------|------------|
+| AND               | `and`          | `True and False`     | `False`    |
+| OR                | `or`           | `True or False`      | `True`     |
+| NOT               | `not`          | `not True`           | `False`    |
+
+## ⚠️ Important
+
+Python requires standardized **indentation** to define code blocks.
+
+In other programming languages, indentation is just a good practice — but in Python, it's **mandatory**.  
+That's because Python doesn't use symbols like `{}` or keywords like `begin/end` to define blocks of code.
+
+## 📁 File Opening Modes in Python
+
+| Mode | Description                                                                 |
+|------|-----------------------------------------------------------------------------|
+| `r`  | Opens the file **for reading only**. The file **must already exist**.       |
+| `r+` | Opens the file for **reading and writing**. The file **must already exist**. Writing starts at the beginning and **overwrites** existing content. |
+| `w`  | Opens the file **for writing only**. Existing content is **deleted**. Creates a new file if it doesn't exist. |
+| `w+` | Opens the file for **reading and writing**. **Deletes existing content**.   |
+| `a`  | Opens the file **for appending** at the end. **Preserves existing content**.|
+| `a+` | Opens the file for **reading and appending**. Content is added to the end.  |
