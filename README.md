@@ -53,7 +53,7 @@ This repository includes:
 ## 👤 About Me
 
 I'm **Rodrigo Yuji Seto Soma**, a Systems Information graduate and aspiring developer based in Japan 🇯🇵.  
-This repository reflects my journey toward a career in tech, with a focus on front-end development, automation, and continuous learning.
+This repository reflects my journey toward a career in tech, with a focus on development, automation, and continuous learning.
 
 - 🔗 [GitHub](https://github.com/YujiSeto)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/yujiseto/)  
