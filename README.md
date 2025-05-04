@@ -1,7 +1,7 @@
 
 # 🐍 Python Learning Journey
 
-Welcome to my Python study repository!  
+Welcome to my Python study repository! 
 This is my personal notebook where I document everything I'm learning in Python — from the basics to more advanced concepts — using multiple learning platforms and resources.
 
 ---
