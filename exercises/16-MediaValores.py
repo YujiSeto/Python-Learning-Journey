@@ -9,7 +9,7 @@ while(valor>0.0):
     # Entrada de Valores
     valor = float(input("Digite um valor: "))
 
-# Caso Digite um Valor Nefativo o Laço Encerra
+# Caso Digite um Valor Negativo o Laço Encerra
 media = soma / qtd
 print("\n Total da Soma: ",soma)
 print("\n Quantidade de Valores Digitados: ",qtd)
