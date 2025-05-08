@@ -30,6 +30,15 @@ This repository includes:
 
 ---
 
+## 🗂️ Quick Access
+
+Looking for something specific?
+
+- 📝 [View All Notes](./notes/NOTES.md) – A complete log of my Python learning notes, summaries, and reflections.  
+- 📦 [Explore Resources](./resources/RESOURCES.md) – Curated links, tools, and materials that have helped me learn.
+
+---
+
 ## 📁 Repository Structure
 
 📂 python-learning  
