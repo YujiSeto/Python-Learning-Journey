@@ -162,3 +162,114 @@ That's because Python doesn't use symbols like `{}` or keywords like `begin/end`
 | `w+` | Opens the file for **reading and writing**. **Deletes existing content**.   |
 | `a`  | Opens the file **for appending** at the end. **Preserves existing content**.|
 | `a+` | Opens the file for **reading and appending**. Content is added to the end.  |
+
+
+# 🖥️ Setting Up a Kivy GUI Project with VSCode in Python
+
+This guide walks you through creating a basic graphical interface using **Kivy** in Python, with proper environment setup and code structure.
+
+---
+
+## 📁 1. Create and Open the Project Folder
+
+- Create a folder for your project, e.g., `meu_kivy_app`.
+- Open **VS Code** and go to `File > Open Folder…` and select your project folder.
+
+---
+
+
+## 🐍 2. Set Up a Python Virtual Environment
+
+Open the integrated terminal in VS Code:
+- Shortcut: <kbd>Ctrl</kbd> + <kbd>`</kbd> or go to `Terminal > New Terminal`
+
+Create a virtual environment in the project folder:
+
+```bash
+python -m venv .venv
+````
+
+### ✅ Activate the Virtual Environment
+
+#### Windows (PowerShell)
+
+First, set PowerShell execution policy for your user:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Then activate the environment:
+
+```powershell
+.\.venv\Scripts\Activate.ps1
+```
+
+#### Windows (cmd.exe)
+
+```bat
+.\.venv\Scripts\activate.bat
+```
+
+#### macOS / Linux
+
+```bash
+source .venv/bin/activate
+```
+
+Your terminal prompt should change to something like: `(.venv) C:\...`
+
+---
+
+## 📦 3. Install Kivy
+
+Upgrade pip and install Kivy:
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install kivy
+```
+
+### Optional: Add KivyMD
+
+Create a `requirements.txt`:
+
+```txt
+kivy
+kivymd
+```
+
+Install with:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🧾 4. Create the Main File
+
+Create a file named `main.py` with the following content:
+
+```python
+from kivy.app import App
+from kivy.uix.label import Label
+
+class MainApp(App):
+    def build(self):
+        return Label(text='Hello World!')
+
+if __name__ == '__main__':
+    MainApp().run()
+```
+
+> 📝 Optionally, create a `main.kv` file to define the UI using KV language.
+
+---
+
+With these steps, your Kivy app is ready to run inside a virtual environment using **VS Code**. 🚀
+
+> 🧠 **Did you know?**  
+The **KV language** also supports importing Python modules, creating **dynamic classes**, and much more.  
+For full details, refer to the official Kivy documentation:  
+🔗 [https://kivy.org/doc/stable/](https://kivy.org/doc/stable/)
