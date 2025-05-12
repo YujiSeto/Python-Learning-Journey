@@ -1,0 +1,28 @@
+# 1. Create the virtual environment
+python -m venv venv
+
+# 2. Activate the virtual environment
+.\venv\Scripts\Activate
+
+# 3. Deactivate
+deactivate
+
+# 4. Install library SQL
+
+pip install Sqlite3
+\\ERROR: No matching distribution found for Sqlite3
+
+pip install mysql.connector
+\\Successfully installed mysql.connector-2.2.9
+
+pip install Psycopg2
+\\Successfully installed Psycopg2-2.9.10
+
+pip install Cx_Oracle
+\\ERROR: Failed to build installable wheels for some pyproject.toml based projects (Cx_Oracle)
+
+pip install SqlAlchemy
+\\Successfully installed SqlAlchemy-2.0.40 greenlet-3.2.2 typing-extensions-4.13.2    
+
+pip install Pyodbc
+\\Successfully installed Pyodbc-5.2.0

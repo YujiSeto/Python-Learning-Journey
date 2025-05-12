@@ -1,0 +1,46 @@
+$ mkdir cliente-1
+
+$ cd cliente-1
+
+$ python -m venv venv --prompt="cliente-1"
+
+$ .\venv\Scripts\Activate
+
+(cliente-1) $ python -m pip install django==2.2.26
+
+(cliente-1) $ python -m pip list
+
+
+Package  Version
+-------- -------
+Django   2.2.26
+pip      24.2
+pytz     2025.2
+sqlparse 0.5.3
+
+(cliente-1) $ deactivate
+
+
+$ cd ..
+
+$ mkdir cliente-2
+
+$ cd cliente-2
+
+$ python -m venv venv --prompt="cliente-2"
+
+$ .\venv\Scripts\Activate
+
+(cliente-2) $ python -m pip install django==4.0.3
+
+(cliente-2) $ python -m pip list
+
+Package  Version
+-------- -------
+asgiref  3.8.1
+Django   4.0.3
+pip      24.2
+sqlparse 0.5.3
+tzdata   2025.2
+
+(cliente-2) $ deactivate

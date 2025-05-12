@@ -273,3 +273,150 @@ With these steps, your Kivy app is ready to run inside a virtual environment usi
 The **KV language** also supports importing Python modules, creating **dynamic classes**, and much more.  
 For full details, refer to the official Kivy documentation:  
 🔗 [https://kivy.org/doc/stable/](https://kivy.org/doc/stable/)
+
+
+## ✅ How to Create, Activate, and Deactivate a Virtual Environment with `venv`
+
+Setting up a virtual environment is a great way to manage dependencies for your Python project 🐍. Here's how you can do it using PowerShell:
+
+### 🛠 Create and Activate
+
+```powershell
+# 1. Create the virtual environment
+python -m venv venv
+
+# 2. Activate the virtual environment
+.\venv\Scripts\Activate
+````
+
+Once activated, your terminal prompt will change to show the virtual environment name (e.g., `(venv)`).
+
+### 🔚 Deactivate
+
+To deactivate the virtual environment and return to your system's global Python environment, simply run:
+
+```powershell
+deactivate
+```
+
+✨ *This keeps your Python workspace clean and avoids conflicts between packages from different projects.*
+
+# 🔁 Managing Different Django Versions (Windows - PowerShell)
+
+You can manage different versions of Django for clients using isolated virtual environments.
+
+---
+
+### 🧱 Client 1 – Django 2.2.26
+
+1. **Create the folder for client 1 and navigate to it**:
+   ```powershell
+   mkdir client-1
+   cd client-1
+   ```
+
+2. **Create the virtual environment with the prompt "client-1"**:
+
+   ```powershell
+   python -m venv venv --prompt="client-1"
+   ```
+
+3. **Activate the virtual environment**:
+
+   ```powershell
+   .\venv\Scripts\Activate
+   ```
+
+4. **Install Django version 2.2.26**:
+
+   ```powershell
+   python -m pip install django==2.2.26
+   ```
+
+5. **List installed packages**:
+
+   ```powershell
+   python -m pip list
+   ```
+
+   Example output:
+
+   ```text
+   Package Version
+   ---------- -------
+   Django 2.2.26
+   pip 22.0.4
+   pytz 2022.1
+   setuptools 58.1.0
+   sqlparse 0.4.2
+   ```
+
+6. **Deactivate the virtual environment**:
+
+   ```powershell
+   deactivate
+   ```
+
+---
+
+### 🧱 Client 2 – Django 4.0.3
+
+1. **Go back and repeat the process for client 2**:
+
+   ```powershell
+   cd ..
+   mkdir client-2
+   cd client-2
+   ```
+
+2. **Create the virtual environment with the prompt "client-2"**:
+
+   ```powershell
+   python -m venv venv --prompt="client-2"
+   ```
+
+3. **Activate the virtual environment**:
+
+   ```powershell
+   .\venv\Scripts\Activate
+   ```
+
+4. **Install Django version 4.0.3**:
+
+   ```powershell
+   python -m pip install django==4.0.3
+   ```
+
+5. **List installed packages**:
+
+   ```powershell
+   python -m pip list
+   ```
+
+   Example output:
+
+   ```text
+   Package Version
+   ---------- -------
+   asgiref 3.5.0
+   Django 4.0.3
+   pip 22.0.4
+   setuptools 58.1.0
+   sqlparse 0.4.2
+   ```
+
+6. **Deactivate the virtual environment**:
+
+   ```powershell
+   deactivate
+   ```
+
+---
+
+### ✅ Notes:
+
+* Each virtual environment is **isolated**, containing only the specific Django version and dependencies for that client.
+* You can **switch** between projects by activating the corresponding virtual environment.
+* Using `--prompt` helps **identify** which environment is active, making it easier to manage multiple projects.
+
+Now you have a well-organized process to install and manage different Django versions in virtual environments on Windows using PowerShell.
