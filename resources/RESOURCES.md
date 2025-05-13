@@ -45,3 +45,16 @@ The **Python DB-API** (Data-Base API) provides a set of modules for interacting 
 - **MySQL.connector** 🔗
   
 These modules allow seamless connection and interaction with databases, making it easier to manage and query data in Python.
+
+## ⚠️ Important
+
+### 📁 **Structured Data**
+
+Structured data is commonly found in databases and other standardized formats such as:
+
+- 📄 **XML** (eXtensible Markup Language) – A markup language that defines a set of rules for encoding documents.
+- 🗃️ **CVS** (Concurrent Version System) – A version control system that manages changes to source code.
+- 🧾 **JSON** (JavaScript Object Notation) – A lightweight format for storing and transporting data.
+- 🔄 And many others...
+
+These formats play a vital role in organizing, storing, and exchanging data across systems and platforms.

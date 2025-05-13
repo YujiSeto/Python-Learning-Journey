@@ -420,3 +420,27 @@ You can manage different versions of Django for clients using isolated virtual e
 * Using `--prompt` helps **identify** which environment is active, making it easier to manage multiple projects.
 
 Now you have a well-organized process to install and manage different Django versions in virtual environments on Windows using PowerShell.
+
+## 📊 Data Structure Comparison
+
+| 🏷️ **Type**               | 🧠 **Definition**                                 | 📌 **Examples**                  |
+|---------------------------|---------------------------------------------------|----------------------------------|
+| 🗂️ **Structured Data**     | Rigid, predefined schema                          | Relational databases (SQL)       |
+| 📄 **Semi-Structured Data**| Flexible structure, not fully predefined          | RDF, OWL, XML, JSON              |
+| 📦 **Unstructured Data**   | No predefined structure                           | Text documents, videos, audios   |
+
+---
+
+### 🔍 Key Differences
+
+- **Structured Data**  
+  - Highly organized and stored in tabular formats.  
+  - Easily searchable with SQL-based queries.
+
+- **Semi-Structured Data**  
+  - Contains tags or markers to separate data elements.  
+  - More flexible than structured data.
+
+- **Unstructured Data**  
+  - Lacks a formal structure.  
+  - Requires advanced tools (e.g., NLP, ML) to extract insights.
