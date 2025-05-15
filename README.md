@@ -21,12 +21,25 @@ This repository includes:
 
 - Master Python fundamentals
 - Improve problem-solving skills through code
-- Build a strong foundation for areas like:
+- Build knowledge for areas like:
   - Automation
   - Web development
   - Data analysis
-  - Artificial Intelligence (in the future 🚀)
+  - Artificial Intelligence
 - Document my progress and share it openly
+
+---
+
+## 🧰 Projects
+
+Here are some of the hands-on projects developed as part of my learning journey with Python:
+
+| 💼 Project         | 🔍 Description                                  | 🔗 Link |
+|-------------------|--------------------------------------------------|--------|
+| 📇 PYSQL           | Client registration system using SQLite         | [View Project](https://github.com/YujiSeto/Python-Learning-Journey/tree/main/projects/PYSQL) |
+| 🧮 Calculator      | Basic GUI calculator built with Python          | [View Project](https://github.com/YujiSeto/Python-Learning-Journey/tree/main/projects/Calculadora) |
+| 🔐 Login System    | Simple login interface with authentication      | [View Project](https://github.com/YujiSeto/Python-Learning-Journey/tree/main/projects/Login) |
+| ⏱ Stopwatch        | Simple stopwatch                                | [View Project](https://github.com/YujiSeto/Python-Learning-Journey/tree/main/projects/Cronometro) |
 
 ---
 
@@ -36,26 +49,6 @@ Looking for something specific?
 
 - 📝 [View All Notes](./notes/NOTES.md) – A complete log of my Python learning notes, summaries, and reflections.  
 - 📦 [Explore Resources](./resources/RESOURCES.md) – Curated links, tools, and materials that have helped me learn.
-
----
-
-## 📁 Repository Structure
-
-📂 python-learning  
- ├── exercises/ — Solved exercises and practice problems  
- ├── notes/ — Concepts, summaries, and notes  
- ├── projects/ — Mini-projects and coding challenges  
- ├── resources/ — Useful links and additional study materials  
- └── README.md — This file
-
----
-
-## 🚀 Tools & Tech
-
-- Python 3.x
-- VS Code
-- Git & GitHub
-- Various online courses and tutorials (self-paced)
 
 ---
 
